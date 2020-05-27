@@ -1,7 +1,7 @@
 package com.company;
 
 public class ShapeFactory {
-    static Shape getShape(String shapeType){
+    Shape getInstance(String shapeType){
 
         if (shapeType.equalsIgnoreCase("Circle"))
             return new Circle();

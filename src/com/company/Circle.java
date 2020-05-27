@@ -4,7 +4,7 @@ public class Circle implements Shape{
 
     @Override
     public void drawShape() {
-        System.out.println("Circle");
+        System.out.println("I am a Circle");
 
     }
 }
